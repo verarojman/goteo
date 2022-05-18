@@ -1,0 +1,29 @@
+# Required - The Project API Token from WebTranslateIt.com
+# More information: https://github.com/webtranslateit/webtranslateit/wiki#configuration-file
+
+api_key: proj_pvt_zMk8sbPMkQfgsYoSppiyKQ
+
+# Optional - Locales not to sync with WebTranslateIt.
+# Takes a string, a symbol, or an array of string or symbol.
+
+# ignore_locales: [es]
+
+# Optional - Locales to sync with WebTranslateIt.
+# Takes a string, a symbol, or an array of string or symbol.
+
+# needed_locales: ["es"]
+
+# Optional: files not to sync with WebTranslateIt.
+# Takes an array of globs.
+
+# ignore_files: ['somefile*.csv']
+
+# Optional - Hooks
+# Takes a string containing a command to run.
+
+# before_pull: "echo 'some unix command'"   # Command executed before pulling files
+# after_pull:  "touch tmp/restart.txt"      # Command executed after pulling files
+
+# before_push: "echo 'some unix command'"   # Command executed before pushing files
+# after_push:  "touch tmp/restart.txt"      # Command executed after pushing files
+
